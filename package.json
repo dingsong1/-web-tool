@@ -1,0 +1,32 @@
+{
+  "name": "web-tool",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix"
+  },
+  "dependencies": {
+    "unplugin-auto-import": "^0.11.2",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.4.0",
+    "naive-ui": "^2.33.2",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^3.0.7",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue-tsc": "^0.39.5"
+  }
+}
