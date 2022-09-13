@@ -24,6 +24,11 @@ const routes: Array<RouteRecordRaw> = [
         name:'base64-conversion-picture',
         component:base64Conversion,
     },
+    {
+        path:'/pdf',
+        name:'pdf',
+        component:()=>import('../views/pdf/index.vue')
+    }
 ];
 
 const router = createRouter({

@@ -9,6 +9,8 @@
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix"
   },
   "dependencies": {
+    "@icon-park/vue-next": "^1.4.2",
+    "pdfjs-dist": "^2.16.105",
     "unplugin-auto-import": "^0.11.2",
     "vue": "^3.2.37",
     "vue-router": "^4.0.13"

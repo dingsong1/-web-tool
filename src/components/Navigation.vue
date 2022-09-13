@@ -38,6 +38,11 @@ const state=reactive<State>({
           href:'/base64Conversion',
         }
       ]
+    },
+    {
+      label: 'pdf处理',
+      key: 'pdf',
+      href: '/pdf'
     }
   ]
 })
