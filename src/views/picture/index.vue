@@ -7,7 +7,7 @@
     <span class="img-tips">拖拽图片到这里</span>
     <div v-if="state.mergeImage">
       <div v-for="item in state.imageList" :key="item">
-        <n-image :src="item.image" :width="item.width" :height="item.height"></n-image>
+        <img :src="item.image" :width="item.width" :height="item.height" />
       </div>
     </div>
     <n-image :src="state.image" :width="state.width" :height="state.height" v-else></n-image>
